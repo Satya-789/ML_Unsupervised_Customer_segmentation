@@ -33,8 +33,7 @@ The analysis follows a standard machine learning workflow for clustering:
     * **`Income_Age_Ratio`**: Annual Income divided by Age (to find wealthy young customers).
     * **`Spending_per_Income`**: Spending Score divided by Annual Income (to find normalized spending habits).
 3.  **Feature Scaling:** All relevant features are scaled using **`StandardScaler`** to ensure equal weighting during the clustering process.
-4.  **Univariate Analysis:** Histograms are used to visualize the distributions of the key customer features.
-5.  **Clustering:**
+4.  **Clustering:**
     * **Algorithm:** **K-Means Clustering** is the primary method used, preceded by **Hierarchical Clustering** (Dendrogram) for preliminary cluster number estimation.
     * **Optimal Clusters (K):** The Elbow Method is employed, and the notebook analysis proceeds with the determination of **5 optimal clusters**.
 
